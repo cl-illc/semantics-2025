@@ -4,12 +4,12 @@ title: Syllabus
 menu: yes
 ---
 
-*Spring 2024*
+*Spring 2025*
 
 
 # Lectures
 
-{% assign lectures = (site.data.2021.lectures | where: "selected", "y") %}
+{% assign lectures = (site.data.2025.lectures | where: "selected", "y") %}
 {% for lecture in lectures %}
 {% include lecture.html lecture=lecture %}
 {% endfor %}
