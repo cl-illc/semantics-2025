@@ -188,7 +188,7 @@
   layout: lecture
   selected: y
   date: 2024-05-16
-  img: 
+  img: books
   uid: l11
   title: "Lecture: Visual Storytelling"
   instructor: "Martha Lewis"
@@ -222,11 +222,11 @@
 -
   layout: lecture
   selected: y
-  date: 2024-05-24
+  date: 2024-05-23
   img: Poster
   uid: l13
   title: "Project presentations"
-  instructor: "Ekaterina Shutova, Vera Neplenbroek, Sara Rajaee and Alina Leidinger"
+  instructor: "Martha Lewis, Vera Neplenbroek, and Ivo Verhoeven"
   note: 
   abstract: "In this session, you will present the results of your research projects."
   background:
