@@ -1,17 +1,17 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-02
+  date: 2024-04-01
   img: introduction-icon_1-267x300
   uid: intro
   title: "Introduction: Learning word and sentence representations"
-  instructor: "Ekaterina Shutova"
+  instructor: "Martha Lewis"
   note: 
   abstract: >
     "In this introductory lecture I will give an overview of the course and we will discuss learning word and sentence representations from text."
   background:
   discussion:
-  slides: resources/slides/Sem2024-lecture1.pdf
+  slides: 
   further: 
    -  "Samuel R Bowman, Gabor Angeli, Christopher Potts, and Christopher D Manning. [A large annotated corpus for learning natural language inference](https://arxiv.org/pdf/1508.05326.pdf). arXiv preprint arXiv:1508.05326, 2015."
    - "Alexis Conneau and Douwe Kiela. [Senteval: An evaluation toolkit for universal sentence representations](https://www.aclweb.org/anthology/L18-1269.pdf). In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC-2018), 2018."
@@ -21,16 +21,32 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-05
-  img: bert
+  date: 2024-04-04
+  img: research
   uid: l2
+  title: "Overview of the research projects"
+  instructor: "Martha Lewis"
+  note: 
+  abstract: "In this session we will give an overview of the research projects and some general advice on conducting research"
+  background:
+  discussion:
+  slides: 
+  further:
+  code: 
+  data: 
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-08
+  img: bert
+  uid: l3
   title: "Attention and transformers"
-  instructor: "Phillip Lippe and Ekaterina Shutova"
+  instructor: "Ivo Verhoeven"
   note: 
   abstract: "In this session we will introduce attention and transformer architectures"
   background:
   discussion:
-  slides: resources/slides/ATCS_2024_Attention_Mechanisms.pdf
+  slides:
   further:
     - "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. [Attention Is All You Need](https://arxiv.org/abs/1706.03762). In Proceedings of NIPS 2017."
     - "A very helpful [blog post](https://jalammar.github.io/illustrated-transformer/) explaining the transformer architecture."
@@ -40,11 +56,11 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-09
+  date: 2024-04-11
   img: BERT
-  uid: l3
+  uid: l4
   title: "Seminar: The BERT model"
-  instructor: "Ekaterina Shutova"
+  instructor: "Martha Lewis"
   note: 
   abstract: "In this session we will discuss the BERT model."
   background:
@@ -58,11 +74,11 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-12
+  date: 2024-04-15
   img: GNN
-  uid: l4
+  uid: l5
   title: "Seminar: Model pruning and modularity"
-  instructor: "Ekaterina Shutova"
+  instructor: "Martha Lewis"
   note: 
   abstract: "In this session we will discuss recent techniques for structured and unstructured pruning and finding task-specific subnetworks in Transformer models."
   background:
@@ -76,11 +92,11 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-16
+  date: 2024-04-22
   img: Multilingual
-  uid: l5
+  uid: l6
   title: "Multilingual models"
-  instructor: "Rochelle Choenni and Ekaterina Shutova"
+  instructor: "Martha Lewis"
   note: 
   abstract: "In this session we will discuss learning multilingual word and sentence representations."
   background:
@@ -96,11 +112,11 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-19
+  date: 2024-04-25
   img: T0
-  uid: l6
+  uid: l7
   title: "Seminar: LLMs: Instruction-tuning and prompting"
-  instructor: "Ekaterina Shutova"
+  instructor: "Martha Lewis"
   note: 
   abstract: "In this session we will discuss recent research on generative LMs, prompting, instruction-tuning and in-context learning."
   background:
@@ -111,68 +127,13 @@
   slides: 
   further: 
   code: 
-  data:  
+  data: 
 -
   layout: lecture
   selected: y
-  date: 2024-04-23
-  img: ICL
-  uid: l7
-  title: "Seminar: In-context learning"
-  instructor: "Ekaterina Shutova"
-  note: 
-  abstract: "In this session we will discuss recent research on generative LMs, prompting, instruction-tuning and in-context learning."
-  background:
-  discussion: 
-    - "In this session we will discuss the following papers:"
-    - "Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer. 2022. [Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?](https://arxiv.org/pdf/2202.12837.pdf) In Proceedings of EMNLP 2022."
-    - "Stephanie C.Y. Chan, Adam Santoro, Andrew K. Lampinen, Jane X. Wang, Aaditya Singh, Pierre H. Richemond, Jay McClelland, Felix Hill. 2022. [Data distributional properties drive emergent in-context learning in transformers](https://arxiv.org/pdf/2205.05055.pdf). Advances in Neural Information Processing Systems."
-  slides: 
-  further: 
-  code: 
-  data:  
--
-  layout: lecture
-  selected: y
-  date: 2024-04-26
-  img: CoT
-  uid: l8
-  title: "Making LLMs Safe: A case study of LLaMA-2"
-  instructor: "Pushkar Mishra, Meta AI"
-  note: 
-  abstract: "In this guest lecture we will discuss safety and alignment of LLMs."
-  background:
-  discussion: 
-  slides: 
-  further: 
-  code: 
-  data:   
--
-  layout: lecture
-  selected: y
-  date: 2023-05-07
-  img: MechInt
-  uid: l9
-  title: "Seminar: (Mechanistic) Interpretability in NLP"
-  instructor: "Ekaterina Shutova"
-  note: 
-  abstract: "In this session we will discuss reseach on interpretability of LLM computations."
-  background:
-  further: 
-  discussion:   
-    - "In this session we will discuss the following papers:"
-    - "Mor Geva, Jasmijn Bastings, Katja Filippova, Amir Globerson. 2023. [Dissecting Recall of Factual Associations in Auto-Regressive Language Models](https://arxiv.org/pdf/2304.14767.pdf). In Proceedings of EMNLP 2023.
-"
-    - "Chris Wendler, Veniamin Veselovsky, Giovanni Monea, Robert West. 2024. [Do Llamas Work in English? On the Latent Language of Multilingual Transformers](https://arxiv.org/pdf/2402.10588.pdf). arXiv:2402.10588"
-  slides: 
-  code: 
-  data:  
--
-  layout: lecture
-  selected: y
-  date: 2024-05-14
+  date: 2024-05-06
   img: bias
-  uid: l10
+  uid: l8
   title: "Seminar: Bias in NLP models"
   instructor: "Vera Neplenbroek"
   note: 
@@ -185,34 +146,34 @@
   slides: 
   further: 
   code: 
-  data:    
+  data:   
 -
   layout: lecture
   selected: y
-  date: 2024-05-17
-  img: X-Cultural
-  uid: l11
-  title: "Seminar: Cross-cultural NLP"
-  instructor: "Alina Leidinger"
+  date: 2024-05-09
+  img: ICL
+  uid: l9
+  title: "Seminar: In-context learning"
+  instructor: "Martha Lewis"
   note: 
-  abstract: "In this session we will discuss recent research on LLMs and their application beyond the English-speaking world."
+  abstract: "In this session we will discuss recent research on generative LMs, prompting, instruction-tuning and in-context learning."
   background:
   discussion: 
     - "In this session we will discuss the following papers:"
-    - "Yong Cao, Li Zhou, Seolhwa Lee, Laura Cabello, Min Chen, Daniel Hershcovich. 2023. [Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study](https://arxiv.org/pdf/2303.17466)."
-    - "Shangbin Feng, Chan Young Park, Yuhan Liu, Yulia Tsvetkov. 2023. [From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models](https://aclanthology.org/2023.acl-long.656.pdf)."
+    - "Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer. 2022. [Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?](https://arxiv.org/pdf/2202.12837.pdf) In Proceedings of EMNLP 2022."
+    - "Ziquian Lin and Kangwook Lee. 2024. [Dual operating modes of in-context learning](https://openreview.net/forum?id=ElVHUWyL3n). Forty-first International Conference on Machine Learning."
   slides: 
   further: 
   code: 
-  data:    
--  
+  data:  
+-
   layout: lecture
   selected: y
-  date: 2024-05-23
+  date: 2024-05-13
   img: Clip
-  uid: l12
+  uid: l10
   title: "Seminar: Language and Vision"
-  instructor: "Alberto Testoni"
+  instructor: "Martha Lewis"
   note: 
   abstract: "In this session, we will discuss research on joint modelling of language and vision."
   background:
@@ -224,6 +185,41 @@
   code: 
   data: 
 -  
+  layout: lecture
+  selected: y
+  date: 2024-05-16
+  img: 
+  uid: l11
+  title: "Lecture: Visual Storytelling"
+  instructor: "Martha Lewis"
+  note: 
+  abstract: "In this session, we will discuss recent research on Visual Storytelling."
+  background:
+  discussion:
+  slides: 
+  code: 
+  data: 
+-  
+  layout: lecture
+  selected: y
+  date: 2023-05-20
+  img: MechInt
+  uid: l12
+  title: "Seminar: (Mechanistic) Interpretability in NLP"
+  instructor: "Martha Lewis"
+  note: 
+  abstract: "In this session we will discuss reseach on interpretability of LLM computations."
+  background:
+  further: 
+  discussion:   
+    - "In this session we will discuss the following papers:"
+    - "Mor Geva, Jasmijn Bastings, Katja Filippova, Amir Globerson. 2023. [Dissecting Recall of Factual Associations in Auto-Regressive Language Models](https://arxiv.org/pdf/2304.14767.pdf). In Proceedings of EMNLP 2023.
+"
+    - "Chris Wendler, Veniamin Veselovsky, Giovanni Monea, Robert West. 2024. [Do Llamas Work in English? On the Latent Language of Multilingual Transformers](https://arxiv.org/pdf/2402.10588.pdf). arXiv:2402.10588"
+  slides: 
+  code: 
+  data:    
+-
   layout: lecture
   selected: y
   date: 2024-05-24
