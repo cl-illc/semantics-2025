@@ -4,9 +4,9 @@ layout: main
 
 This is the page of the course *Advanced Topics in Computational Semantics* offered at the [University of Amsterdam][UvA]
 
-Course coordinator: [Ekaterina Shutova](https://www.shutova.org/)
+Course coordinator: [Martha Lewis](https://marthaflinderslewis.github.io/)
 
-Teaching assistants: [Alina Leidinger](mailto:a.j.leidinger@uva.nl), [Vera Neplenbroek](mailto:v.e.neplenbroek@uva.nl), [Sara Rajaee](mailto:s.rajaee@uva.nl) and [Alberto Testoni](mailto:a.testoni@uva.nl)
+Teaching assistants: [Vera Neplenbroek](mailto:v.e.neplenbroek@uva.nl) and [Ivo Verhoeven](mailto:i.o.verhoeven2@uva.nl)
 
 ## Goals
 
@@ -31,9 +31,9 @@ The course has no exam. The grade is based on participation, including presentat
 ## Deadlines
 
 - Paper presentations (throughout the course, assigned by email)
-- Practical 1 - Assignment submission: ~~19 April 2024~~ 22 April 2024
-- Research project presentation: 24 May 2024
-- Research project report: ~~27 May 2024~~ 31 May 2024
+- Practical 1 - Assignment submission: 22 April 2024
+- Research project presentation: 23 May 2024
+- Research project report: 26 May 2024
 
 ## Recommended reading
 
@@ -43,7 +43,7 @@ Since the course focuses on the recent advances in the field of NLP, there is no
 
 Machine Learning 1, Deep Learning and Natural Language Processing 1
 
-For those of you who have not attended NLP1 please check the [course website](https://cl-illc.github.io/nlp1-2023/) and reading materials.
+For those of you who have not attended NLP1 please check the [course website](https://cl-illc.github.io/nlp1-2024/) and reading materials.
 
 
 
