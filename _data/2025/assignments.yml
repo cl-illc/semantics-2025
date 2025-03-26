@@ -1,0 +1,31 @@
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-01
+  img: prac
+  uid: lisa
+  title: "Introduction to Cluster Computing"
+  note: 
+  abstract: 
+  background:
+  discussion:
+  instructions: https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial1/Lisa_Cluster.html
+  slides: resources/practicals/lisa_tutorial/LisaCluster_2020.pdf
+  data: 
+  code:
+  
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-01
+  img: prac
+  uid: practical1
+  title: "Practical 1: Learning sentence representations"
+  note: 
+  abstract: 
+  background:
+  discussion:
+  instructions: resources/practicals/practical1/ATCS_practical_2024.pdf
+  slides:
+  data: 
+  code:  
