@@ -1,0 +1,58 @@
+
+\documentclass[usenames,dvipsnames]{beamer}
+\usepackage{amsmath}
+\usepackage{stdpresent}
+\usepackage[round]{natbib}
+
+\beamertemplatenavigationsymbolsempty
+
+
+\title{Beyond ULL}
+
+\author{Wilker Aziz and Ekaterina Shutova}
+
+
+% add page num
+\expandafter\def\expandafter\insertshorttitle\expandafter{%
+  \insertshorttitle\hfill%
+  \insertframenumber}
+
+\begin{document}
+\maketitlepage
+
+
+\setcounter{framenumber}{0}
+
+
+\begin{frame}{Summary}
+
+\end{frame}
+
+\section{DGMs}
+
+
+\begin{frame}{Beyond VAEs}
+
+Beyond Gaussian latent variables
+\begin{itemize}
+	\item automatic differentiation VI \citep{KucukelbirEtAl:2017}
+\end{itemize}
+
+Beyond known densities
+\begin{itemize}
+	\item Normalising flows \citep{RezendeEtAlNF,kingma2016improved}
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]{Literature}
+\bibliographystyle{plainnat}
+\small
+\bibliography{further}
+\end{frame}
+
+
+
+\end{document}
+\grid

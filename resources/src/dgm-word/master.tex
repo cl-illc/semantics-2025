@@ -1,0 +1,123 @@
+%\documentclass[handout]{beamer}
+\documentclass[usenames,dvipsnames]{beamer}
+\usepackage{amsmath}
+\usepackage{stdpresent}
+%\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usetikzlibrary{intersections,positioning}
+\usetikzlibrary{matrix, calc}
+\newcommand*{\hnode}[1]{\node[outer sep=0pt,anchor=base] (#1) {#1};} 
+\usepackage[absolute,overlay]{textpos}
+\usetikzlibrary{bayesnet}
+\usepackage{tcolorbox}
+\usepackage[tikz]{bclogo}
+\usepackage{textcomp}
+\usepackage{vimacros}
+\usepackage{physics}
+\usepackage[round]{natbib}
+
+
+\newcommand\Wider[2][3em]{%
+\makebox[\linewidth][c]{%
+  \begin{minipage}{\dimexpr\textwidth+#1\relax}
+  \raggedright#2
+  \end{minipage}%
+  }%
+}
+
+
+\beamertemplatenavigationsymbolsempty
+%\hypersetup{breaklinks=true, colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue}
+\newcommand{\ack}[1]{\let\thefootnote\relax\footnote{\textcolor{gray}{#1}}}
+
+\usepackage{tikz}
+\usetikzlibrary{bayesnet}
+
+\newcommand{\SDEC}{SDEC}
+\newcommand{\SENT}{SENT}
+
+
+%\DeclareMathOperator*{\softmax}{softmax}
+
+\title[Word representation]{Deep latent models of word representation}
+
+
+\def\W#1#2{\rnode{#1}{#2}\hfill}
+
+\newcommand{\pointthis}[2]{
+        \tikz[remember picture,baseline]{\node[anchor=base,inner sep=0,outer sep=0]%
+        (#1) {\textbf{#1}};\node[overlay,rectangle callout,%
+        callout relative pointer={(0.1cm,0.5cm)},fill=yellow!90] at ($(#1.north)+(-.5cm,-1cm)$) {#2};}%
+        }%
+
+\presetkeys{bclogo}{
+ombre=true,
+epBord=3,
+couleur = blue!15!white,
+couleurBord = red,
+arrondi = 0.2,
+logo=\bctrombone
+}{}
+
+\author[Wilker Aziz]{Wilker Aziz\\University of Amsterdam}
+\date{April 3, 2018}
+
+% add page num
+\expandafter\def\expandafter\insertshorttitle\expandafter{%
+  \insertshorttitle\hfill%
+  \insertframenumber}
+
+\begin{document}
+\maketitlepage
+
+
+\setcounter{framenumber}{0}
+
+
+\include{embedalign}
+\include{bsg}
+
+
+\section{Practical}
+
+\begin{frame}{Practical}
+
+\begin{itemize}
+	\item Skip-gram \hfill \citep{mikolov2013distributed}
+	\item Bayesian skip-gram \hfill \citep{bravzinskas2017embedding}
+	\item Embed-Align \hfill \citep{rios2018deep}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Comparison}
+\begin{tabular}{l | p{2cm} p{2cm} p{2cm}}
+           & SkipGram & Bayesian SkipGram & EmbedAlign \\ \hline \hline
+LVM & & \checkmark & \checkmark\\ \hline
+Generative training & & & \checkmark \\ \hline
+Prior & & type-specific Gaussian & $\mathcal N(0,I)$ \\ \hline
+Inference model & & FFNN & BiLSTM \\ \hline
+Softmax & negative sampling & JI & CSS \\ \hline
+\end{tabular}
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]{Literature}
+\bibliographystyle{plainnat}
+\small
+\bibliography{VI}
+%\nocite{KingmaWelling:2013}
+%\nocite{HintonEtAl:1995}
+%\nocite{RezendeEtAl:2014}
+%\nocite{TitsiasLazarogredilla:2014}
+%\nocite{BergkirkpatrickEtAl:2010}
+%\nocite{KucukelbirEtAl:2017}
+\end{frame}
+
+
+
+\end{document}
+\grid

@@ -1,0 +1,240 @@
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-02
+  img: introduction-icon_1-267x300
+  uid: intro
+  title: "Introduction: Learning word and sentence representations"
+  instructor: "Ekaterina Shutova"
+  note: 
+  abstract: >
+    "In this introductory lecture I will give an overview of the course and we will discuss learning word and sentence representations from text."
+  background:
+  discussion:
+  slides: resources/slides/Sem2024-lecture1.pdf
+  further: 
+   -  "Samuel R Bowman, Gabor Angeli, Christopher Potts, and Christopher D Manning. [A large annotated corpus for learning natural language inference](https://arxiv.org/pdf/1508.05326.pdf). arXiv preprint arXiv:1508.05326, 2015."
+   - "Alexis Conneau and Douwe Kiela. [Senteval: An evaluation toolkit for universal sentence representations](https://www.aclweb.org/anthology/L18-1269.pdf). In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC-2018), 2018."
+   - "Alexis Conneau, Douwe Kiela, Holger Schwenk, Loic Barrault, and Antoine Bordes. [Supervised learning of universal sentence representations from natural language inference data](https://arxiv.org/pdf/1705.02364.pdf). arXiv preprint arXiv:1705.02364, 2017."
+  code: 
+  data:    
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-05
+  img: bert
+  uid: l2
+  title: "Attention and transformers"
+  instructor: "Phillip Lippe and Ekaterina Shutova"
+  note: 
+  abstract: "In this session we will introduce attention and transformer architectures"
+  background:
+  discussion:
+  slides: resources/slides/ATCS_2024_Attention_Mechanisms.pdf
+  further:
+    - "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. [Attention Is All You Need](https://arxiv.org/abs/1706.03762). In Proceedings of NIPS 2017."
+    - "A very helpful [blog post](https://jalammar.github.io/illustrated-transformer/) explaining the transformer architecture."
+    - "Visualization of attention heads for BERT: [https://github.com/jessevig/bertviz](https://github.com/jessevig/bertviz)"
+  code: 
+  data: 
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-09
+  img: BERT
+  uid: l3
+  title: "Seminar: The BERT model"
+  instructor: "Ekaterina Shutova"
+  note: 
+  abstract: "In this session we will discuss the BERT model."
+  background:
+  discussion: 
+    - "In this session we will discuss the following papers:" 
+    - "Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova. 2019. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf). In Proceedings of NAACL 2019."
+    - "Ian Tenney, Dipanjan Das, Ellie Pavlick. 2019.  [BERT Rediscovers the Classical NLP Pipeline](https://www.aclweb.org/anthology/P19-1452/). In Proceedings of ACL 2019."
+  slides:
+  code: 
+  data:   
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-12
+  img: GNN
+  uid: l4
+  title: "Seminar: Model pruning and modularity"
+  instructor: "Ekaterina Shutova"
+  note: 
+  abstract: "In this session we will discuss recent techniques for structured and unstructured pruning and finding task-specific subnetworks in Transformer models."
+  background:
+  discussion: 
+    - "In this session we will discuss the following papers:"
+    - "Paul Michel, Omer Levy, Graham Neubig. [Are Sixteen Heads Really Better than One?](https://proceedings.neurips.cc/paper/2019/file/2c601ad9d2ff9bc8b282670cdd54f69f-Paper.pdf) In Proceedings of NeuroIPS 2019."
+    - "Tianlong Chen, Jonathan Frankle, Shiyu Chang, Sijia Liu, Yang Zhang, Zhangyang Wang, Michael Carbin. [The Lottery Ticket Hypothesis for Pre-trained BERT Networks.](https://proceedings.neurips.cc/paper/2020/file/b6af2c9703f203a2794be03d443af2e3-Paper.pdf) In Proceedings of NeuroIPS 2020."
+  slides: 
+  further:
+    - "Tianhe Yu, Saurabh Kumar, Abhishek Gupta, Sergey Levine, Karol Hausman, and Chelsea Finn. (2020). [Gradient surgery for multi-task learning](https://arxiv.org/pdf/2001.06782.pdf). arXivpreprint arXiv:2001.06782."  
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-16
+  img: Multilingual
+  uid: l5
+  title: "Multilingual models"
+  instructor: "Rochelle Choenni and Ekaterina Shutova"
+  note: 
+  abstract: "In this session we will discuss learning multilingual word and sentence representations."
+  background:
+  further:
+    - "The paper that introduced byte pair encoding: Rico Sennrich, Barry Haddow, Alexandra Birch. 2016. [Neural Machine Translation of Rare Words with Subword Units](https://arxiv.org/pdf/1508.07909.pdf). In Proceedings of ACL 2016."
+    - "Zirui Wang, Zachary C. Lipton, Yulia Tsvetkov (2020). [On Negative Interference in Multilingual Language Models](https://www.aclweb.org/anthology/2020.emnlp-main.359.pdf). In the proceedings of EMNLP 2020."
+    - "Mikel Artetxe and Holger Schwenk. 2018. [Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond.](https://arxiv.org/pdf/1812.10464.pdf) Transactions of the Association for Computational Linguistics."
+  discussion: 
+  slides: resources/slides/ATCS2024-Multilinguality.pdf
+  further:
+  code: 
+  data:  
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-19
+  img: T0
+  uid: l6
+  title: "Seminar: LLMs: Instruction-tuning and prompting"
+  instructor: "Ekaterina Shutova"
+  note: 
+  abstract: "In this session we will discuss recent research on generative LMs, prompting, instruction-tuning and in-context learning."
+  background:
+  discussion: 
+    - "In this session we will discuss the following papers:"
+    - "Sanh et al., 2022. [Multitask Prompted Training Enables Zero-Shot Task Generalization](https://arxiv.org/pdf/2110.08207.pdf). In Proceedings of ICLR 2022."
+    - "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou. [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf) In Proceedings of NeurIPS 2022."
+  slides: 
+  further: 
+  code: 
+  data:  
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-23
+  img: ICL
+  uid: l7
+  title: "Seminar: In-context learning"
+  instructor: "Ekaterina Shutova"
+  note: 
+  abstract: "In this session we will discuss recent research on generative LMs, prompting, instruction-tuning and in-context learning."
+  background:
+  discussion: 
+    - "In this session we will discuss the following papers:"
+    - "Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer. 2022. [Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?](https://arxiv.org/pdf/2202.12837.pdf) In Proceedings of EMNLP 2022."
+    - "Stephanie C.Y. Chan, Adam Santoro, Andrew K. Lampinen, Jane X. Wang, Aaditya Singh, Pierre H. Richemond, Jay McClelland, Felix Hill. 2022. [Data distributional properties drive emergent in-context learning in transformers](https://arxiv.org/pdf/2205.05055.pdf). Advances in Neural Information Processing Systems."
+  slides: 
+  further: 
+  code: 
+  data:  
+-
+  layout: lecture
+  selected: y
+  date: 2024-04-26
+  img: CoT
+  uid: l8
+  title: "Making LLMs Safe: A case study of LLaMA-2"
+  instructor: "Pushkar Mishra, Meta AI"
+  note: 
+  abstract: "In this guest lecture we will discuss safety and alignment of LLMs."
+  background:
+  discussion: 
+  slides: 
+  further: 
+  code: 
+  data:   
+-
+  layout: lecture
+  selected: y
+  date: 2023-05-07
+  img: MechInt
+  uid: l9
+  title: "Seminar: (Mechanistic) Interpretability in NLP"
+  instructor: "Ekaterina Shutova"
+  note: 
+  abstract: "In this session we will discuss reseach on interpretability of LLM computations."
+  background:
+  further: 
+  discussion:   
+    - "In this session we will discuss the following papers:"
+    - "Mor Geva, Jasmijn Bastings, Katja Filippova, Amir Globerson. 2023. [Dissecting Recall of Factual Associations in Auto-Regressive Language Models](https://arxiv.org/pdf/2304.14767.pdf). In Proceedings of EMNLP 2023.
+"
+    - "Chris Wendler, Veniamin Veselovsky, Giovanni Monea, Robert West. 2024. [Do Llamas Work in English? On the Latent Language of Multilingual Transformers](https://arxiv.org/pdf/2402.10588.pdf). arXiv:2402.10588"
+  slides: 
+  code: 
+  data:  
+-
+  layout: lecture
+  selected: y
+  date: 2024-05-14
+  img: bias
+  uid: l10
+  title: "Seminar: Bias in NLP models"
+  instructor: "Vera Neplenbroek"
+  note: 
+  abstract: "In this session we will discuss research on bias in NLP models, diagnosing it and de-biasing."
+  background:
+  discussion: 
+    - "In this session we will discuss the following papers:"
+    - "David Esiobu, Xiaoqing Tan, Saghar Hosseini, Megan Ung, Yuchen Zhang, Jude Fernandes, Jane Dwivedi-Yu, Eleonora Presani, Adina Williams, and Eric Smith. 2023. [ROBBIE: Robust Bias Evaluation of Large Generative Language Models](https://aclanthology.org/2023.emnlp-main.230/). In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 3764–3814, Singapore. Association for Computational Linguistics."
+    - "Luiza Pozzobon, Beyza Ermis, Patrick Lewis, and Sara Hooker. 2023. [Goodtriever: Adaptive Toxicity Mitigation with Retrieval-augmented Models](https://aclanthology.org/2023.findings-emnlp.339/). In Findings of the Association for Computational Linguistics: EMNLP 2023, pages 5108–5125, Singapore. Association for Computational Linguistics."
+  slides: 
+  further: 
+  code: 
+  data:    
+-
+  layout: lecture
+  selected: y
+  date: 2024-05-17
+  img: X-Cultural
+  uid: l11
+  title: "Seminar: Cross-cultural NLP"
+  instructor: "Alina Leidinger"
+  note: 
+  abstract: "In this session we will discuss recent research on LLMs and their application beyond the English-speaking world."
+  background:
+  discussion: 
+    - "In this session we will discuss the following papers:"
+    - "Yong Cao, Li Zhou, Seolhwa Lee, Laura Cabello, Min Chen, Daniel Hershcovich. 2023. [Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study](https://arxiv.org/pdf/2303.17466)."
+    - "Shangbin Feng, Chan Young Park, Yuhan Liu, Yulia Tsvetkov. 2023. [From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models](https://aclanthology.org/2023.acl-long.656.pdf)."
+  slides: 
+  further: 
+  code: 
+  data:    
+-  
+  layout: lecture
+  selected: y
+  date: 2024-05-23
+  img: Clip
+  uid: l12
+  title: "Seminar: Language and Vision"
+  instructor: "Alberto Testoni"
+  note: 
+  abstract: "In this session, we will discuss research on joint modelling of language and vision."
+  background:
+  discussion:
+    - "In this session we will discuss the following papers:"
+    - "Wai Keen Vong, Wentao Wang, A. Emin Orhan, and Brenden M. Lake. 2024. [Grounded language acquisition through the eyes and ears of a single child](https://www.science.org/doi/10.1126/science.adi1374)."
+    - "Fu et al. 2024. [BLINK: Multimodal Large Language Models Can See but Not Perceive.](https://arxiv.org/abs/2404.12390)"
+  slides: 
+  code: 
+  data: 
+-  
+  layout: lecture
+  selected: y
+  date: 2024-05-24
+  img: Poster
+  uid: l13
+  title: "Project presentations"
+  instructor: "Ekaterina Shutova, Vera Neplenbroek, Sara Rajaee and Alina Leidinger"
+  note: 
+  abstract: "In this session, you will present the results of your research projects."
+  background:
+  discussion:
+  slides: 
+  code: 
+  data: 

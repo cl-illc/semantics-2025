@@ -1,0 +1,47 @@
+-
+  layout: lecture
+  selected: y
+  date: 2019-03-31
+  img: prac
+  uid: lisa
+  title: "Introduction to the LISA system"
+  note: 
+  abstract: 
+  background:
+  discussion:
+  instructions:
+  slides: resources/practicals/lisa_tutorial/LisaCluster_2020.pdf
+  data: 
+  code:
+  
+-
+  layout: lecture
+  selected: y
+  date: 2019-03-31
+  img: prac
+  uid: practical1
+  title: "Practical 1: Learning sentence representations"
+  note: 
+  abstract: 
+  background:
+  discussion:
+  instructions: "resources/practicals/practical1/atcs_practical.pdf"
+  slides: "resources/practicals/practical1/ATCS - Lab Session 1.pdf"
+  data: 
+  code:  
+  
+-
+  layout: lecture
+  selected: y
+  date: 2019-05-12
+  img: prac
+  uid: practical2
+  title: "Research project: Poster and report guidelines"
+  note: 
+  abstract: 
+  background:
+  discussion:
+  instructions: https://cl-illc.github.io/semantics-2020/info/2020/05/12/FinalEval.html
+  slides: 
+  data: 
+  code:  
