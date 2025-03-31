@@ -1,7 +1,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-01
+  date: 2025-03-31
   img: prac
   uid: lisa
   title: "Introduction to Cluster Computing"
@@ -17,7 +17,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-01
+  date: 2025-03-31
   img: prac
   uid: practical1
   title: "Practical 1: Learning sentence representations"
@@ -25,7 +25,7 @@
   abstract: 
   background:
   discussion:
-  instructions: resources/practicals/practical1/ATCS_practical_2024.pdf
+  instructions: resources/practicals/practical1/ATCS_practical_2025.pdf
   slides:
   data: 
   code:  
