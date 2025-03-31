@@ -9,7 +9,7 @@ menu: true
 # Practicals
 
 
-{% assign practicals = (site.data.2021.assignments | where: "selected", "y") %}
+{% assign practicals = (site.data.2025.assignments | where: "selected", "y") %}
 {% for practical in practicals %}
 {% include assignment.html lecture=practical %}
 {% endfor %}
