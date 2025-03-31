@@ -1,7 +1,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-01
+  date: 2025-04-01
   img: introduction-icon_1-267x300
   uid: intro
   title: "Introduction: Learning word and sentence representations"
@@ -21,7 +21,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-04
+  date: 2025-04-04
   img: research
   uid: l2
   title: "Overview of the research projects"
@@ -37,7 +37,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-08
+  date: 2025-04-08
   img: bert_2
   uid: l3
   title: "Attention and transformers"
@@ -56,7 +56,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-11
+  date: 2025-04-11
   img: BERT
   uid: l4
   title: "Seminar: The BERT model"
@@ -74,7 +74,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-15
+  date: 2025-04-15
   img: GNN
   uid: l5
   title: "Seminar: Model pruning and modularity"
@@ -92,7 +92,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-22
+  date: 2025-04-22
   img: Multilingual
   uid: l6
   title: "Multilingual models"
@@ -112,7 +112,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-04-25
+  date: 2025-04-25
   img: T0
   uid: l7
   title: "Seminar: LLMs: Instruction-tuning and prompting"
@@ -131,7 +131,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-05-06
+  date: 2025-05-06
   img: bias
   uid: l8
   title: "Seminar: Bias in NLP models"
@@ -141,8 +141,8 @@
   background:
   discussion: 
     - "In this session we will discuss the following papers:"
-    - "David Esiobu, Xiaoqing Tan, Saghar Hosseini, Megan Ung, Yuchen Zhang, Jude Fernandes, Jane Dwivedi-Yu, Eleonora Presani, Adina Williams, and Eric Smith. 2023. [ROBBIE: Robust Bias Evaluation of Large Generative Language Models](https://aclanthology.org/2023.emnlp-main.230/). In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 3764–3814, Singapore. Association for Computational Linguistics."
-    - "Luiza Pozzobon, Beyza Ermis, Patrick Lewis, and Sara Hooker. 2023. [Goodtriever: Adaptive Toxicity Mitigation with Retrieval-augmented Models](https://aclanthology.org/2023.findings-emnlp.339/). In Findings of the Association for Computational Linguistics: EMNLP 2023, pages 5108–5125, Singapore. Association for Computational Linguistics."
+    - "Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, Phu Mon Htut, and Samuel Bowman. 2022. [BBQ: A hand-built bias benchmark for question answering](https://aclanthology.org/2022.findings-acl.165/). In Findings of the Association for Computational Linguistics: ACL 2022, pages 2086–2105, Dublin, Ireland. Association for Computational Linguistics."
+    - "Flor Miriam Plaza-del-Arco, Amanda Cercas Curry, Alba Curry, Gavin Abercrombie, and Dirk Hovy. 2024. [Angry Men, Sad Women: Large Language Models Reflect Gendered Stereotypes in Emotion Attribution](https://aclanthology.org/2024.acl-long.415/). In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 7682–7696, Bangkok, Thailand. Association for Computational Linguistics."
   slides: 
   further: 
   code: 
@@ -150,7 +150,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-05-09
+  date: 2025-05-09
   img: ICL
   uid: l9
   title: "Seminar: In-context learning"
@@ -169,7 +169,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-05-13
+  date: 2025-05-13
   img: Clip
   uid: l10
   title: "Seminar: Language and Vision"
@@ -187,7 +187,7 @@
 -  
   layout: lecture
   selected: y
-  date: 2024-05-16
+  date: 2025-05-16
   img: books
   uid: l11
   title: "Lecture: Visual Storytelling"
@@ -202,7 +202,7 @@
 -  
   layout: lecture
   selected: y
-  date: 2023-05-20
+  date: 2025-05-20
   img: MechInt
   uid: l12
   title: "Seminar: (Mechanistic) Interpretability in NLP"
@@ -222,7 +222,7 @@
 -
   layout: lecture
   selected: y
-  date: 2024-05-23
+  date: 2025-05-23
   img: Poster
   uid: l13
   title: "Project presentations"
