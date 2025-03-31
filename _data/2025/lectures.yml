@@ -11,7 +11,7 @@
     "In this introductory lecture I will give an overview of the course and we will discuss learning word and sentence representations from text."
   background:
   discussion:
-  slides: 
+  slides: resources/slides/Sem2025-lecture1.pdf
   further: 
    -  "Samuel R Bowman, Gabor Angeli, Christopher Potts, and Christopher D Manning. [A large annotated corpus for learning natural language inference](https://arxiv.org/pdf/1508.05326.pdf). arXiv preprint arXiv:1508.05326, 2015."
    - "Alexis Conneau and Douwe Kiela. [Senteval: An evaluation toolkit for universal sentence representations](https://www.aclweb.org/anthology/L18-1269.pdf). In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC-2018), 2018."
