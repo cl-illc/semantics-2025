@@ -13,7 +13,7 @@ mathjax: true
 * Correctly implement the models and obtain plausible results
 * Perform adequate analysis to explain your results (whether you get positive or negative results!)
 * Make a poster and present your project to the class -- **Deadline: 23 May, 13:00-15:00, Poster presentation session**. The poster presentation is worth 10% of your course grade.
-* Write a research report describing your research question, methods, experiments and main findings (5-7 pages) -- **Deadline: 26 May, 23:59**. The research report is worth 40% of your course grade.
+* Write a research report describing your research question, methods, experiments and main findings (5-7 pages) -- **Deadline: ~~26 May, 23:59~~  28 May, 23:59**. The research report is worth 40% of your course grade.
 
 Please note that we will not penalise you if you do not get a positive result. This is research and we know that a negative result is always a possibility. What we want to see is that you have conducted experiments following good scientific practice (as described in the project advice slides), and that you have analysed your results and provided some insight about the behaviour of the models.
 
@@ -95,4 +95,4 @@ You lose points for bad writing style (because you were asked to prepare a confe
 
 Report submission will be via Canvas. Please submit the PDF of your report, as well as a breakdown of contributions by team member. Clearly state what each team member has contributed to the project (e.g. which components they have implemented, how they have contributed to the analysis, which section(s) of the report they have written).
 
-The deadline for the submission of the report is **26 May, 23:59**.
+The deadline for the submission of the report is **~~26 May, 23:59~~ 28 May 23:59**.
